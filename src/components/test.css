@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,200&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul{
+    margin-left: auto;
+}
+.logo{
+    width: 3rem;
+}
+nav a.nav-link{
+    font-weight: 200;
+    font-size: 0.8rem;
+    letter-spacing: 0.0023076923076923075rem;
+    cursor: pointer;
+    
+}
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a:hover{
+    border-top: #fff solid;
+}
+nav{
+    padding: 0.6rem;
+}
