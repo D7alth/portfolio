@@ -1,6 +1,6 @@
 import React from 'react'
-import './test.css'
-import myLogo from '../components/tdragon.png'
+import './styles/presentation.css'
+import myLogo from '../components/images/tdragon.png'
 const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">

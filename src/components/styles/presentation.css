@@ -30,7 +30,7 @@ nav{
 
 .header-wraper{
     position:relative;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(backGround.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/backGround.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height:90vh;
