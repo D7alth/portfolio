@@ -9,18 +9,21 @@
 .wrapper{
     display: flex;
     flex-direction: row;
-    padding:4rem;
+    align-items: center;
+    text-align: center;
     justify-content: space-between;
     background-color: #212529;
-
+height:100vh;
 }
 .PhotoMe{
     width:14rem;
     height:14rem;
     border-radius:50%; 
+    margin:2rem;
 }
 .text p{
     padding:5rem;
+    margin-right: 2rem;
     font-family: 'Work Sans', sans-serif;
     color: #FFF;
 }
@@ -31,4 +34,15 @@
     display: flex;
     flex-direction: column;
 
+}
+.text > p > span{
+    color:crimson;
+}
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
 }
